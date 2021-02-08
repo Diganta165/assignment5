@@ -1,0 +1,19 @@
+ #menus{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px; 
+}
+.menu{
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.menu-name{
+    font-size: 45px;
+}
+.menu-image{
+    width: 250px;
+    height: 200px;
+}
